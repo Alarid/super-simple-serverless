@@ -1,0 +1,15 @@
+{
+  "name": "super-simple-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Yohann Legrand <yohann.legrand.pro@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "dev": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^2.0.3"
+  }
+}
